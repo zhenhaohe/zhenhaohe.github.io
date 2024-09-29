@@ -1,0 +1,806 @@
+<!DOCTYPE HTML>
+<!--
+	Home page by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Home Page Zhenhao He</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/profile_photo.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Zhenhao He</a></h1>
+				</header>
+				
+				
+
+				<nav id="nav">
+					<ul>
+						<li><a href="#Research" class="active">Research</a></li>
+						<li><a href="#Publications">Publications</a></li>
+						<li><a href="#Education">Education</a></li>
+						<li><a href="#Experience">Experience</a></li> 
+						<li><a href="#Talks and Tutorials">Talks and Tutorials</a></li>
+						<li><a href="#Awards">Awards</a></li>
+					</ul>
+				</nav>
+
+				<p>
+					<font >
+						STF H 319 <br>
+						Stampfenbachstrasse 114 <br>
+						8092 Zurich<br>
+					</font>
+							<i class="fa fa-envelope" ></i><a href="mailto:zhe@inf.ethz.ch" target="_top"><font > zhe(at)inf.ethz.ch</font></a> <br>
+							<i class="fa fa-globe"></i>
+							<a href="https://scholar.google.com/citations?user=-UUJrX0AAAAJ&hl=en" target="_blank"><font>Google Scholar</font></a>
+							<br>
+							<a href="images/Zhenhao_cv.pdf" target="_blank"><font>CV</font></a>
+						
+				</p>
+				<!-- <footer>
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">zhe@inf.ethz.ch</span></a></li>
+					</ul>
+				</footer> -->
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Research -->
+							<section id="Research">
+								<div class="container">
+									<header class="major">
+										<h3>Research</h3>
+										<!-- <p>Just an incredibly simple responsive site<br />
+										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
+									</header>
+									<p>
+										Since March 2019, I am a PhD candidate at <a href="https://www.systems.ethz.ch/" target="_blank">Systems Group, ETH Zurich</a> under the supervision of <a href="http://people.inf.ethz.ch/alonso/">Prof. Dr. Gustavo Alonso</a>. My research interest lies in advancing data processing systems within data centers, with a primary research focus on the convergence of heterogeneous hardware, distributed computing, and data center networking. My work involves crafting networking abstractions—such as TCP, RDMA, and MPI—specifically tailored for hardware accelerators to prototype future systems with smart-NICs and in-network processors. Additionally, I enjoy the development of system infrastructures that efficiently orchestrate heterogeneous clusters, ensuring optimal performance for large-scale applications, particularly in the realm of machine learning.
+
+									</p>
+
+									<!-- <header class="major">
+										<h3>Projects Overview</h3>
+									</header> -->
+
+									<!-- <p><b><a href="https://ieeexplore.ieee.org/document/8533524" target="_blank">Flex-KM (FPL'18)</a></b></br> -->
+										<!-- <span class="image right"><img src="images/avatar.jpg" alt="200" /></span> -->
+										<!-- This work focuses on hardware acceleration of the K-Means clustering in emerging hybrid databases running atop CPU+FPGA architectures. In databases, workloads change often and comprise many concurrent queries working on varying amounts of data, motivating the need for parameterizable designs.
+										We designed the accelerator that can accommodate different number of dimensions and centroids while offering the same constant processing rate thanks to its pipelined architecture. Our design is competitive when compared to both existing FPGA-based solutions as well as highly optimized multi-core software implementations
+										</p> -->
+
+									<!-- <p><b><a>BiS-KM (FPGA'20)</a></b></br>
+										<span class="image right"><img src="images/bis-km.png" alt="100" /></span>
+										In this work we explore the challenges and opportunities in using low precision input in conjunction with a standard K-Means algorithm as a way to improve the memory bandwidth utilization on hardware accelerators. --> <!-- First and foremost challenge is the overhead of storing the data at different precision levels since, depending on the training objective, different levels of precision might be needed. Second, the FPGA design needs to accommodate varying precision without requiring reconfiguration. To address these concerns,  --><!-- We propose Bit-Serial K-Means(BiS-KM), a combination of a hybrid memory layout supporting data retrieval at any level of precision, a novel FPGA design based on bit-serial arithmetic, and a modified K-Means algorithm tailored to FPGAs. We have tested BiS-KM with various data sets and compared our design with a state-of-the-art FPGA accelerator. BiS-KM achieves an almost linear speedup as precision decreases, providing a more effective way to perform K-Means on FPGAs. -->
+
+									<!-- <p><b><a>Framework for Enabling Distributed FPGA Application</a></b></br>
+
+										The project is motivated by the trend that FPGAs are network-attached on the cloud and many applications can benefit from partitioning the task on multiple FPGAs, e.g. scale out sgd or decision tree. However, the develpment cost of building partitioned FPGA application is huge, especially when the inter-FPGA communication is handled by the developer. The framework alleviates this problem by allowing the developer to easily describe the data flows between each partitioned operator on the software side and its hardware counterpart manages the communication at backstage. We prototyped the design on the first generation of the <a href="https://www.microsoft.com/en-us/research/project/project-catapult/">Microsoft Catapult</a> machines, where FPGAs are connected to each other through serial links, and partitioned K-Means algorithm using the framework.
+
+									</p> -->
+									
+								</div>
+							</section>
+
+						<!-- Publications -->
+							<section id="Publications">
+								<div class="container">
+									<header class="major">
+										<h3>Publications</h3>
+									</header>
+
+									<p>
+										<b>[OSDI'24]</b> <a href="https://arxiv.org/pdf/2312.11742.pdf"> ACCL+: an FPGA-Based Collective Engine for Distributed Applications </a> <br>
+										<b>Zhenhao He</b>, Dario Korolija, Yu Zhu, Benjamin Ramhorst, Tristan Laan, Lucian Petrica, Michaela Blott, Gustavo Alonso <br>
+										18th USENIX Symposium on Operating Systems Design and Implementation, Jul 2024
+									</p>
+
+									<p>
+										<b>[TNNLS'23]</b> <a href="https://ieeexplore.ieee.org/abstract/document/10154261"> Staleness-Reduction Mini-Batch K-Means </a> <br>
+										Xueying Zhu, Jie Sun, <b>Zhenhao He</b>, Jiantong Jiang, Zeke Wang <br>
+										IEEE Transactions on Neural Networks and Learning Systems, Jun 2023
+									</p>
+									
+									<p>
+										<b>[ASPLOS'22]</b> <a href="https://systems.ethz.ch/news-and-events/news/2021/01/enzian-a-research-computer-built-by-the-systems-group-at-eth-zurich.html"> Enzian: an open, general, CPU/FPGA platform for OS research </a> <br>
+										David Cock, Abishek Ramdas, Daniel Schwyn, Michael Giardino, Adam Turowski, <b>Zhenhao He</b>, Nora Hossle, Dario Korolija, Melissa Licciardello, Kristina Martsenko, Reto Achermann, Gustavo Alonso, Timothy Roscoe <br>
+										27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Feb 2022
+									</p>
+									
+									<p>
+										<b>[H2RC'21]</b> <a href="https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/510849/1/H2RC21_Xilinx_submitted_version.pdf"> ACCL: FPGA-Accelerated Collectives over 100 Gbps TCP-IP </a> <br>
+										<b>Zhenhao He</b>, Daniele Parravicini, Lucian Petrica, Kenneth O’Brien, Gustavo Alonso, Michaela Blott <br>
+										7th International Workshop on Heterogeneous High-performance Reconfigurable Computing, Nov 2021
+									</p>
+									
+									<p>
+										<b>[FPL'21]</b> <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/487920"> Distributed Recommendation Inference on FPGA Clusters </a> <br>
+										Yu Zhu, <b>Zhenhao He</b>, Wenqi Jiang, Kai Zeng, Jingren Zhou, Gustavo Alonso <br>
+										31th International Conference on Field-Programmable Logic and Applications, August 2021
+									</p>
+									
+									<p>
+										<b>[FPL'21]</b> <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/485145"> EasyNet: 100 Gbps Network for HLS </a> <br>
+										<b>Zhenhao He</b>, Dario Korolija, Gustavo Alonso <br>
+										31th International Conference on Field-Programmable Logic and Applications, August 2021
+									</p>
+									
+									<p>
+										<b>[KDD'21]</b> <a href="https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/485153/1/FleetRec_camera_ready.pdf"> FleetRec: Large-Scale Recommendation Inference on Hybrid GPU-FPGA Clusters </a> <br>
+										Wenqi Jiang*, <b>Zhenhao He</b>*, Shuai Zhang, Kai Zeng, Liang Feng, Jiansong Zhang, Tongxuan Liu, Yong Li, Jingren Zhou, Ce Zhang, Gustavo Alonso <br>
+										27th SIGKDD Conference on Knowledge Discovery and Data Mining, August 2021
+									</p>
+									
+									<p>
+										<b>[MLSys'21]</b> <a href="https://arxiv.org/abs/2010.05894"> MicroRec: Accelerating Deep Recommendation Systems to Microseconds by Hardware and Data Structure Solutions </a> <br>
+										Wenqi Jiang, <b>Zhenhao He</b>, Shuai Zhang, Thomas B Preußer, Kai Zeng, Liang Feng, Jiansong Zhang, Tongxuan Liu, Yong Li, Jingren Zhou, Ce Zhang, Gustavo Alonso <br>
+										4th Conference on Machine Learning and Systems, April 2021
+									</p>
+									
+									<p>
+										<b>[SoCC'20]</b> <a href="https://dl.acm.org/doi/10.1145/3419111.3421301"> Specializing the Network for Scatter-Gather Workloads </a> <br>
+										Catalina Alvarez, <b>Zhenhao He</b>, Gustavo Alonso, Ankit Singla <br>
+										ACM Symposium on Cloud Computing, October 2020
+									</p>
+									
+									<p>
+										<b>[FPGA'20]</b> <a href="https://dl.acm.org/doi/10.1145/3373087.3375316"> BiS-KM: Enabling Any-Precision K-Means on FPGAs </a> <br>
+										<b>Zhenhao He</b>, Zeke Wang, Gustavo Alonso <br>
+										28th ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 2020
+									</p>
+									
+									<p>
+										<b>[FPL'18]</b> <a href="https://ieeexplore.ieee.org/document/8533524" target="_blank">A Flexible K-Means Operator for Hybrid Databases</a> <br>
+										<b>Zhenhao He</b>, David Sidler, Zsolt Istvan, Gustavo Alonso <br>
+										28th International Conference on Field Programmable Logic and Applications, August 2018
+									</p>
+
+									<p>Co-first authorship is denoted by <b>*</b></p>
+
+									<!-- <ul class="feature-icons">
+										<li class="fa-code">Write all the code</li> 
+										<li class="fa-cubes">Stack small boxes</li>
+										<li class="fa-book">Read books and stuff</li>
+										<li class="fa-coffee">Drink much coffee</li>
+										<li class="fa-bolt">Lightning bolt</li>
+										<li class="fa-users">Shadow clResearch technique</li>
+									</ul> -->
+								</div>
+							</section>
+
+						<!-- Education -->
+							<section id="Education">
+								<div class="container">
+									<header class="major">
+										<h3>Education</h3>
+									</header>
+									<table class="table">
+									<tbody>
+									<tr>
+										<td>
+											<b>Ph.D. Candidate in Computer Science</b><br>
+											<a href="https://www.systems.ethz.ch/" target="_blank">Systems Group, ETH Zurich</a>, Switzerland<br>
+											Advisor: Prof. Gustavo Alonso
+										</td>
+										<td>Mar. 2019 - Present</td>
+									</tr>
+									<tr>
+										<td>
+											<b>M.Sc. in Information Technology and Electrical Engineering</b><br>
+											<a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a>, Switzerland<br>
+											<!-- <font size="1"> -->
+											<!-- <b>Graduated with distinction</b><br> -->
+											<b>Thesis:</b> Design and Implementation of a Framework for Enabling Distributed FPGA Applications
+											<!-- </font> -->
+										</td>
+										<td>Sep. 2016 - Oct. 2018</td>
+									</tr>
+									<tr>
+										<td>
+											<b>B.Sc. in Electronic Engineering</b><br>
+											<a href="https://www.polimi.it/">Politecnico di Milano</a>, Italy<br>
+											<!-- <font size="1"> -->
+											Double Degree Program with Tongji University<br>
+											<!-- </font> -->
+										</td>
+										<td>Sep. 2015 - Jul. 2016</td>
+									</tr>
+									<tr>
+										<td>
+											<b>B.Sc. in Electronic and Information Engineering</b><br>
+											<a href="https://en.tongji.edu.cn/">Tongji University</a>, Shanghai, China<br>
+											Outstanding Graduates of Tongji University 
+										</td>
+										<td>Sep. 2012 - Jul. 2015</td>
+									</tr>
+									</tbody>
+								</table>
+									<!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Possibly broke spacetime</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Terraformed a small moon</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Snapped dark matter in the wild</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+									</div> -->
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="Experience">
+								<div class="container">
+									<header class="major">
+										<h3>Experience</h3>
+									</header>
+									<table class="table">
+									<tbody>
+
+									<!-- <tr>
+										<td>
+											<b>Teaching Assistant (Head TA)</b> <br>
+											Systems Group, ETH Zurich<br>
+											<font size="3">
+												Information System for Engineers <a href="https://systems.ethz.ch/education/courses/2021-autumn/information-systems-for-engineers.html">[website]</a>
+											</font>
+										</td>
+										<td>Zurich, Switzerland</td>
+										<td>Sep. 2021 - Dec. 2021</td>
+									</tr>	 -->
+
+									<tr>
+										<td>
+											<b>Research Intern </b> <br>
+											Research Labs Xilinx<br>
+											<font size="3">
+												Designed and implemented ACCL <a href="https://github.com/Xilinx/ACCL">[website]</a>, an open-source FPGA accelerated collective offload engine with 100 Gbps hardware TCP/IP backend.
+											</font>
+										</td>
+										<td>Dublin, Ireland</td>
+										<td>Mar. 2021 - Sep. 2021</td>
+									</tr>	
+
+									<!-- <tr>
+										<td>
+											<b>Teaching Assistant </b> <br>
+											Systems Group, ETH Zurich<br>
+											<font size="3">
+												Information System for Engineers <a href="https://systems.ethz.ch/education/courses/2020-fall/information-systems-for-engineers.html">[website]</a>
+											</font>
+											
+										</td>
+										<td>Zurich, Switzerland</td>
+										<td>Sep. 2020 - Dec. 2020</td>
+									</tr>	 -->
+
+									<!-- <tr>
+										<td>
+											<b>Teaching Assistant </b> <br>
+											Systems Group, ETH Zurich<br>
+											<font size="3">
+												Hardware Acceleration for Machine Learning <a href="https://systems.ethz.ch/education/courses/2020-spring/hardware-acceleration-for-machine-learning.html">[website]</a>
+											</font>
+											
+										</td>
+										<td>Zurich, Switzerland</td>
+										<td>Feb. 2020 - Jun. 2020</td>
+									</tr>	 -->
+
+									<tr>
+										<td>
+											<b>Research Assistant </b> <br>
+											Systems Group, ETH Zurich<br>
+											<font size="3">
+												Designed and implemented a flexible K-Means FPGA accelerator that can accommodate various dimensions and clusters in runtime.
+											</font>
+										</td>
+										<td>Zurich, Switzerland</td>
+										<td>Sep. 2017 - Jan. 2018</td>
+									</tr>
+									<tr>
+										<td>
+											<b>Research Assistant </b> <br>
+											Institute of Electomagnetic Fields, ETH Zurich<br>
+											<font size="3">
+												Designed and simulated a novel structure of photonic-plasmonic beam splitter in subwavelength scale realizing low loss transmission.
+											</font>
+										</td>
+										<td>Zurich, Switzerland</td>
+										<td>Sep. 2016 - Apr. 2017</td>
+									</tr>
+									
+									</tbody>
+								</table> 
+								</div>
+							</section>
+
+						<!-- Talks -->
+						<section id="Talks and Tutorials">
+							<div class="container">
+								<header class="major">
+									<h3>Invited Talks and Tutorials</h3>
+								</header>
+
+								<p>
+									<b>[Tutorial]</b> <a href="https://systems.ethz.ch/research/data-processing-on-modern-hardware/hacc/tutorial-fpl-2023.html" target="_blank"> Network and Memory Abstractions on FPGAs for Distributed Applications</a> <br>
+									Tutorial co-located with International Conference on Field-Programmable Logic and Applications, September 2023
+								</p>
+
+								<p>
+									<b>[Tutorial]</b> <a href="https://systems.ethz.ch/research/data-processing-on-modern-hardware/hacc/tutorial-fpga.html" target="_blank"> Enabling Networking for Distributed Applications on FPGA Clusters</a> <br>
+									Tutorial co-located with ACM/SIGDA International Symposium on Field-Programmable Gate Arrays, February 2023
+								</p>
+								
+								<p>
+									<b>[Talk]</b> <a href="https://ibm.ent.box.com/s/h5v7lc05j7rlonisziqzq9veco6amwfs" target="_blank"> XACC-ETHZ cluster</a> <br>
+									2nd Workshop on DevOps support for Cloud FPGA platforms at FPL 2021, August 2021
+								</p>
+
+								<p>
+									<b>[Talk]</b> <a href="https://www.youtube.com/watch?v=P93WlrBVxoM" target="_blank"> VNX, EasyNet; Elastic-DF</a> <br>
+									Xilinx XACC Tech Talk series, June 2021
+								</p>
+								
+								<p>
+									<b>[Talk]</b> <a href="https://www.youtube.com/watch?v=cAh5KgUDgeo" target="_blank"> EasyNet: 100Gbps Network for HLS</a> <br>
+									Xilinx University Program XACC school, January 2021
+								</p>
+
+							</div>
+						</section>
+
+
+						<!-- Six -->
+						<section id="Awards">
+							<div class="container">
+								<header class="major">
+									<h3>Awards</h3>
+								</header>
+								<table class="table">
+								<tbody>
+
+								<tr>
+									<td>
+										<b> Xilinx XACC Outstanding Contributor Award </b> <a href="https://systems.ethz.ch/news-and-events/news/2021/12/zhenhao-he-receives-the-xacc-outstanding-contributor-award-for-his-work-on-easynet.html">[website]</a> 
+									</td>
+									<td>ETH Zurich</td>
+									<td>2021</td>
+								</tr>	
+
+								<tr>
+									<td>
+										<b> Outstanding Graduates </b> 
+									</td>
+									<td>Tongji University</td>
+									<td>2016</td>
+								</tr>	
+
+								<tr>
+									<td>
+										<b> National Scholarship </b> 
+									</td>
+									<td>Tongji University</td>
+									<td>2015</td>
+								</tr>	
+
+								<tr>
+									<td>
+										<b> Chinese Government Scholarship for Studying Abroad  </b> 
+									</td>
+									<td>Tongji University</td>
+									<td>2015</td>
+								</tr>	 
+
+								
+
+								</tbody>
+							</table> 
+							</div>
+						</section>
+
+						<!-- Five -->
+						
+							<!-- <section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. DResearchc accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+	while (!deck.isInOrder()) {
+	    print 'Iteration ' + i;
+	    deck.shuffle();
+	    i++;
+	}
+
+	print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="6u 12u(xsmall)">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="6u 12u(xsmall)">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button special">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button special small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="3u 6u(medium) 12u$(xsmall)">
+												<ul class="actions vertical">
+													<li><a href="#" class="button special">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="3u 6u$(medium) 12u$(xsmall)">
+												<ul class="actions vertical small">
+													<li><a href="#" class="button special small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="3u 6u(medium) 12u$(xsmall)">
+												<ul class="actions vertical">
+													<li><a href="#" class="button special fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="3u 6u$(medium) 12u$(xsmall)">
+												<ul class="actions vertical small">
+													<li><a href="#" class="button special small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item Research</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Publications</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Education</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item Research</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Publications</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Education</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button special">Special</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special big">Big</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button special fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button special fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button special icon fa-download">Icon</a></li>
+											<li><a href="#" class="button icon fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button special disabled">Special</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row uniform">
+												<div class="6u 12u(xsmall)">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="6u 12u(xsmall)">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="12u">
+													<div class="select-wrapper">
+														<select name="demo-category" id="demo-category">
+															<option value="">- Category -</option>
+															<option value="1">Manufacturing</option>
+															<option value="1">Shipping</option>
+															<option value="1">Administration</option>
+															<option value="1">Human Resources</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="4u 12u(medium)">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="4u 12u(medium)">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="4u 12u(medium)">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="6u 12u(medium)">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="6u 12u(medium)">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="12u">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+											</div>
+											<div class="row uniform">
+												<div class="12u">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row 50% uniform">
+												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											</div>
+											<div class="row 50% uniform">
+												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											</div>
+											<div class="row 50% uniform">
+												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. DResearchc accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. DResearchc accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. DResearchc accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. DResearchc accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						
+
+					</div> -->
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Zhenhao He. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
